@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
+import Ray from '../Ray'
 
-const Flex = styled.div(({
+const Flex = styled(Ray)(({
   inline,
 
   // Parent properties

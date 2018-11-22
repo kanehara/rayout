@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
+import Ray from '../Ray'
 
-const Grid = styled.div(({
+const Grid = styled(Ray)(({
   inline,
 
   template,
@@ -35,7 +36,7 @@ Grid.propTypes = {
   autoRows: PropTypes.string
 }
 
-const Item = styled.div(({
+const Item = styled(Ray)(({
   area,
   column,
   row,
