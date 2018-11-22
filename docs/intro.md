@@ -1,0 +1,1 @@
+`rayout` is a simple React layout component library focusing only on layout inspired by [primitive components of Reakit](https://reakit.io/components/box)
