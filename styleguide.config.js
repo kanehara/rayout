@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   title: 'Rayout',
   components: 'src/components/**/[A-Z]*.js',
@@ -12,5 +14,9 @@ module.exports = {
       components: 'src/components/**/*.jsx',
       ignore: '**/*.test.jsx'
     }
-  ]
+  ],
+  getComponentPathLine (componentPath) {
+    const name = path.basename(componentPath, '.jsx') || path.basename(componentPath, '.js')
+    return `import {${name}} from 'rayout'`
+  }
 }
