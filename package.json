@@ -1,0 +1,23 @@
+{
+  "name": "rayout",
+  "version": "0.0.1",
+  "description": "simple layout components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "layout",
+    "components",
+    "ui"
+  ],
+  "author": "kanehara",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "react": "^16.6.3"
+  }
+}
