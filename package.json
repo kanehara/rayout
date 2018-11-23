@@ -3,7 +3,7 @@
   "repository": "github:kanehara/rayout",
   "version": "0.0.1",
   "description": "simple layout components",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "styleguidist server",
