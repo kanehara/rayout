@@ -1,5 +1,6 @@
 {
   "name": "rayout",
+  "repository": "github:kanehara/rayout",
   "version": "0.0.1",
   "description": "simple layout components",
   "main": "index.js",
