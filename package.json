@@ -1,11 +1,12 @@
 {
   "name": "rayout",
   "repository": "github:kanehara/rayout",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha",
   "description": "simple layout components",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "webpack",
     "dev": "styleguidist server",
     "build:styleguid": "styleguidist build"
   },
@@ -32,6 +33,7 @@
     "react-styleguidist": "^8.0.6",
     "standard": "*",
     "styled-components": "^4.1.1",
-    "webpack": "^4.26.0"
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.2.1"
   }
 }
