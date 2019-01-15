@@ -1,7 +1,7 @@
 {
   "name": "rayout",
   "repository": "github:kanehara/rayout",
-  "version": "0.0.2-alpha",
+  "version": "0.0.2",
   "description": "simple layout components",
   "main": "dist/index.js",
   "scripts": {
