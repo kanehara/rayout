@@ -1,12 +1,12 @@
 {
   "name": "rayout",
   "repository": "github:kanehara/rayout",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "simple layout components",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "build",
+    "prepublishOnly": "webpack",
     "dev": "styleguidist server",
     "build": "webpack",
     "build:styleguide": "styleguidist build"
