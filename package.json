@@ -6,9 +6,10 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "webpack",
+    "prepublishOnly": "build",
     "dev": "styleguidist server",
-    "build:styleguid": "styleguidist build"
+    "build": "webpack",
+    "build:styleguide": "styleguidist build"
   },
   "keywords": [
     "react",
